@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+.header {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.buscar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  list-style-type: none;
+}
+.logo li {
+  padding: 10px;
+  border-radius: 10px;
+}
+.titulo {
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+}
+.history {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  list-style-type: none;
+}
+.imagem {
+  display: flex;
+  justify-content: space-between;
+}
+.imagem li {
+  padding: 10px;
+  border-radius: 10px;
+}
+.principal {
+}
+.flutuante {
+  margin-top: 10px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.janela {
+  background-color: white;
+  width: 300px;
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  flex-direction: column;
+}
+.janela li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.visual {
+  margin-left: 40px;
+  width: 1000px;
+  background-color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.visual li {
+  padding: 20px;
+}
+.arte {
+  display: flex;
+  background-color: white;
+}
+.icones {
+  display: flex;
+  margin-top: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-color: white;
+  justify-content: space-between;
+}
+.direita {
+  margin-left: 10px;
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.direita button {
+  padding: 10px;
+}
+.result {
+  margin-top: 30px;
+  font-size: 30px;
+  color: black;
+}
+.esquerda {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+button {
+  min-width: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: red;
+}
+button:focus {
+  background: red;
+}
+.comentario {
+  display: flex;
+
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-color: white;
+}
+.comentario Person {
+  margin-left: 10px;
+}
+.comente {
+  display: flex;
+  margin-top: 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-color: white;
+  justify-content: center;
+  margin-block-end: 100px;
+}
